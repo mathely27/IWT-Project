@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STUDENT FORM </title>
+    <style>
+        
+            body {
+    background: #f5f7fa;
+   background: linear-gradient(10deg, #f0caf8, #f1ccdc);
+
+
+
+}
+</style>
+        
+</head>
+<body>
+    <form  action="submit.html" ><fieldset>
+    <legend><b>Personal Information</b></legend>   
+        <bgcolor="red">
+        <label>Name: </label><input type="text" id="name" PLACEHOLDER="Enter Your Full Name"  maxlength="20" required>
+    <br>
+    <br>
+    <br>
+    <label>Phone no.</label><input type="text" id="phone num" placeholder="123-456-7890" maxlength="12" minlength="10"  pattern=[0-9]{3}-[0-9]{3}-[0-9]{4} required>
+<br>
+<br>
+<br>
+    <label>Email ID</label><input type="text" id="email" placeholder="Enter your Email ID" REQUIRED>
+    <br>
+    <br>
+    <br>
+<label>Gender:</label>
+<select id="gender" name="gender" required>
+<option value="">--Select--</option>
+<option value="Male"> Male </option>  
+<option value="Female">Female</option> 
+<option value="Other">Other</option>
+</select>
+<br>
+<br>
+<br>
+<label>Password:</label><input type="password" maxlength="15" minlength="8" name="password" id="p1" placeholder="Enter a strong Password" >
+<br>
+<br>
+<!--<input type="range" min="0" max="200">-->
+<!--<input type="range" min="0" max="200" value="50" oninput="result.value=this.value">
+<output id="result">50</output> kg-->
+<label for="scale"><b>Web Technology Skill Level:</b></label><br>
+<input type="range" id="scale" min="0" max="10" value="0" oninput="valueLabel.textContent=this.value" style="width:200px;">
+<span id="valueLabel">0</span>
+
+<div style="display:flex; justify-content:space-between; width:200px; font-size:12px;">
+  <span>0</span>
+  <span>10</span>
+  <span>20</span>
+  <span>30</span>
+  <span>40</span>
+  <span>50</span>
+  <span>60</span>
+  <span>70</span>
+  <span>80</span>
+  <span>90</span>
+  <span>100</span>
+</div>
+</select>
+<br>
+<br>
+<br>
+<img src="https://media.licdn.com/dms/image/v2/D5612AQHDTeFa7oa2dw/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1702018783818?e=2147483647&v=beta&t=UHTY5vYdvM9pgsA2QKRorqD30MnOxjfHttr0x_7U69g" width="300px" length="150" >
+<br>
+<br>
+<br>
+<br>
+<!--<0" max="10" value="0"-->
+<label>Select Your City:-</label><br>
+<select name="city" id="city" value="city">
+    <option value="Delhi">Delhi</option>
+    <option value="Agra">Agra</option>
+    <option value="Chandigarh">Chandigarh</option>
+    <option value="Mumbai">Mumbai</option>
+    <option value="Kashmir">Kashmir</option>
+    <option value="Pune">Pune</option>
+    <option value="other...">Other...</option>
+    </select>
+     <label for="id1">
+<BR>
+<BR>
+<Label><b>Select Your Subjects:</b></Label><BR><BR>
+ <input type="checkbox" value="IWT" ID="id1" name="IWT">IWT
+ </label><br>
+<br>
+ <label for="id2">
+    <input type="checkbox" name="Physics" value="Physics" id="id2">Physics
+ </label> <br> 
+<br>
+ <label for="id3">
+    <input type="checkbox" name="Chemistry" value="Chemistry" id="id3">Chemistry
+ </label>  <br>
+<br>
+ <label for="id3">
+    <input type="checkbox" name="Python" vaue="Python" id="id3">Python
+ </label> <br>
+<br>
+ <label for="id4">
+   <input type="checkbox" name="FCS" value="FCS" id="id4">FCS
+ </label> <br>
+<br>
+<BR>
+ <input type="submit">  <input type="Reset">   <input type="button" value="EXIT" >
+  <!-- <a href="webself.html"><button>EXIT</button></a> -->
+</fieldset>
+
+</body>
+</html
